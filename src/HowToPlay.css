@@ -1,0 +1,48 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-container h1 {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 15px;
+  }
+  
+  .popup-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .close-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #ff4500;
+  }
+  
